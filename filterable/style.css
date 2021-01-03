@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(1, 73, 1);
+}
+
+input {
+  width: 70%;
+  height: 6vh;
+  padding: 5px;
+}
+
+.collection {
+  border: 2px solid rgba(128, 128, 128, 0.157);
+  min-height: 80vh;
+  width: 70%;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.collection-header {
+  background-color:  rgba(30, 187, 56, 0.226);
+  list-style: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin: 3px 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.collection-item {
+  list-style: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  
+}
+
+.collection-item a {
+  color: rgb(87, 85, 85);
+  text-decoration: none;
+}
